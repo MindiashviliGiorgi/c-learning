@@ -10,7 +10,7 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-
+            testc 
         }
     }
 }
