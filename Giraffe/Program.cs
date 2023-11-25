@@ -81,6 +81,48 @@ namespace Giraffe
             Console.WriteLine("Hello " + name + " Your age is " + age);
             */
 
+            // 7 Building a mini Calculator
+            // int num = Convert.ToInt32("30");
+            // Console.WriteLine(num + 3
+            // convert to integral
+            /*
+            Console.Write("Enter a number: ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter another number: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            */
+            // convert in decimal
+            /*
+            Console.Write("Enter a number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter another number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine
+            Console.WriteLine("Your number is : " + Convert.ToDouble(num1 + num2));
+            */
+
+            // 8 Building a Mad Libs Game
+            /*
+            Console.Write("What Color are Roses ? ");
+            string color = Console.ReadLine();
+            Console.Write("What is Plural noun ? ");
+            string plural_noun = Console.ReadLine();
+            Console.Write("Who is your favourite celebrity ? ");
+            string celebrity = Console.ReadLine();
+            */
+            /*
+            string color, pluralNoun, celebrity;
+            Console.Write("Enter a color: ");
+            color = Console.ReadLine();
+            Console.Write("Enter a plural noun: ");
+            pluralNoun = Console.ReadLine();
+            Console.Write("Enter a celebrity: ");
+            celebrity = Console.ReadLine();
+
+            Console.WriteLine("Roses are " + color);
+            Console.WriteLine(pluralNoun + " are blue");
+            Console.WriteLine("I love " + celebrity);
+            */
+
             Console.ReadLine();
         }
     }
