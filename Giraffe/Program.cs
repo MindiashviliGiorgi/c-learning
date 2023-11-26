@@ -123,7 +123,57 @@ namespace Giraffe
             Console.WriteLine("I love " + celebrity);
             */
 
+            // 9 Arrays
+            /*
+            int[] luckyNumbers = { 1, 3, 5, 7, 8, 19 };
+            // create empty array for strings give length property 4 
+            string[] friends = new string[4];
+            friends[0] = "Giorgi";
+            friends[1] = "Mindiashvili";
+
+            Console.WriteLine(friends[0] + " " + friends[1]);
+
+            luckyNumbers[0] = 132;
+
+            // like for loop in js foreach function
+            foreach (int number in luckyNumbers)
+            {
+                Console.WriteLine(number);
+            }
+            */
+
+            // 10 methods
+            /*
+            SayHi("Giorgi", 23);
+            */
+
+            // 11 Return Statements
+            /* 
+            // Console.WriteLine(Cube(3));
+
+            int cubedNumber = Cube(3);
+            Console.WriteLine(cubedNumber);
+            */
+
+            // 12 if statements
+
+
+
             Console.ReadLine();
         }
+
+        
+        static void SayHi(string name, int age)
+        {
+            Console.WriteLine("Hello " + name + " you are " + age);
+        }
+
+        static int Cube(int num)
+        {
+            int result = num * num * num;
+            return result;
+        }
+        
+
     }
 }
