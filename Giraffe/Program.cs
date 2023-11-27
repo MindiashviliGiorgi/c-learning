@@ -156,10 +156,90 @@ namespace Giraffe
             */
 
             // 12 if statements
+            /*
+            bool isMale = true;
+            bool isTall = true;
+            if (isMale && isTall)
+            {
+                Console.WriteLine("You are a tall male");
+            } else if (isMale && !isTall) {
+                Console.WriteLine("You are not a short male");
+            } else if (!isMale && isTall) {
+                Console.WriteLine("You are not male but you are tall");
+            } else
+            {
+                Console.WriteLine("You are not male and tall ");
+            }
+            */
+
+            // 13 more if statements
+
+            // Console.WriteLine(GetMax(2, 10));
+            // Console.WriteLine(GetMax(23, 10));
+            // Console.WriteLine(MoreGetMax(19, 43, 6));
+
+            // 14 Building a better calculator
+            /*
+            Console.Write("Enter a number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter operator: ");
+            string op = Console.ReadLine();
+
+            Console.Write("Enter a second number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            if (op == "+")
+            {
+                Console.WriteLine(num1 + num2);
+            } else if (op == "-")
+            {
+                Console.WriteLine(num1 - num2);
+            } else if (op == "*")
+            {
+                Console.WriteLine(num1 * num2);
+            } else if (op == "/") 
+            {
+                Console.WriteLine(num1 / num2);
+            } else
+            {
+                Console.WriteLine("Invalid oparator");
+            }
+            */
+
+            // 15 Switch Statements
 
 
 
             Console.ReadLine();
+        }
+
+        static int MoreGetMax(int num, int num2, int num3)
+        {
+            int result;
+            result = num;
+            if (num2 > result)
+            {
+                result = num2;
+            }
+            if (num3 > result)
+            {
+                result = num3;
+            }
+            return result;
+        }
+
+        static int GetMax(int num, int num2)
+        {
+            int result;
+            if (num > num2)
+            {
+                result = num;
+            } else
+            {
+                result = num2;
+            }
+            return result;
         }
 
         
