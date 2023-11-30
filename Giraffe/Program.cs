@@ -229,9 +229,70 @@ namespace Giraffe
             */
 
             // 17 Building a Guessing Game
+            /*
+            string secretWord = "Giorgi";
+            string guess = "";
+            int guessCount = 0;
+            int guessLimit = 3;
+            bool outOfGuess = false;
+
+            while(guess != secretWord && !outOfGuess)
+            {
+                if (guessCount < guessLimit)
+                {
+                    Console.Write("Guess secret name: ");
+                    guess = Console.ReadLine();
+                    guessCount++;
+                } else
+                {
+                    outOfGuess = true;
+                }
+            }
+            if (outOfGuess)
+            {
+                Console.WriteLine("You lose");
+            } else
+            {
+                Console.WriteLine("You win");
+            }
+            */
+
+            // 18 For Loops
+            /*
+            int[] numbers = { 3, 6, 8, 14, 57 };
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Console.WriteLine(numbers[i]);
+            };
+            */
+
+            // easy leetcode task for find Max number in array
+            // int[] nums = { 1, 4, 2, 19, 31 };
+            // Console.WriteLine(FindMax(nums));
+
+            // 19 Building an Exponent Method
 
 
             Console.ReadLine();
+        }
+
+        static int FindMax(int[] arr)
+        {
+            int max = arr[0];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] > max)
+                {
+                    max = arr[i];
+                }
+            }
+            return max;
+        }
+
+        static int TwoSum(int a, int b)
+        {
+            return a + b;
         }
 
         static string GetDay(int dayNum)
