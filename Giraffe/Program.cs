@@ -272,9 +272,79 @@ namespace Giraffe
             // Console.WriteLine(FindMax(nums));
 
             // 19 Building an Exponent Method
+            // Console.WriteLine(GetPow(3, 3));
+
+            // 20 2d array
+            /*
+            int[,,] numberGrid = {
+                { 1, 2, 3 },
+                { 3, 4, 5 },
+                { 5, 6, 2 }
+            };
+            for (int i = 0; i < numberGrid.GetLength(0); i++)
+            {
+                for (int j = 0; j < numberGrid.GetLength(1); j++)
+                {
+                    Console.WriteLine(numberGrid[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            
+            int[,] numberGrid =
+            {
+                {1, 2 },
+                {3, 4 },
+                {5, 6 }
+            };
+            int[,] myArray = new int[2, 3];
+            Console.WriteLine(myArray);
+            */
+
+            // 21 Palindrome Checker LeetCode Task
+            while(true)
+            {
+                Console.Write("Enter your word: ");
+                string myWord = Console.ReadLine();
+
+                if (!IsPalindrome(myWord))
+                {
+                    Console.WriteLine($"{myWord} is not a palindrome");
+                }
+                else
+                {
+                    Console.WriteLine($"{myWord} is a palindrome");
+                    break;
+                }
+            }
 
 
             Console.ReadLine();
+        }
+
+        static bool IsPalindrome(string str)
+        {
+            string cleanedString = str.Replace(" ", "").ToLower();
+            
+            for (int i = 0; i < cleanedString.Length / 2; i++)
+            {
+                if (cleanedString[i] != cleanedString[cleanedString.Length - 1 - i])
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        static int GetPow(int baseNum, int powNum)
+        {
+            int result = 1;
+
+            for (int i = 0; i < powNum; i++)
+            {
+                result = result * baseNum;
+            }
+
+            return result;
         }
 
         static int FindMax(int[] arr)
