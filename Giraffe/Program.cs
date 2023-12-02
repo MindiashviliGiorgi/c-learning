@@ -335,8 +335,12 @@ namespace Giraffe
             */
 
             // 23 classes & objects
+            /*
+            Book book1 = new Book("U dont know js", "GM", 300);
+            Book book2 = new Book("U know js", "GGMM", 100);
+            */
 
-            
+            // 24 Object Methods
 
 
             Console.ReadLine();
