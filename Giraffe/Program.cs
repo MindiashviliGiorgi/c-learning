@@ -301,6 +301,7 @@ namespace Giraffe
             */
 
             // 21 Palindrome Checker LeetCode Task
+            /*
             while(true)
             {
                 Console.Write("Enter your word: ");
@@ -316,6 +317,26 @@ namespace Giraffe
                     break;
                 }
             }
+            */
+            // 22 Exception Handling
+            /*
+            try
+            {
+                Console.Write("Enter a number: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter another number: ");
+                int num2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(num1 / num2);
+            } catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            */
+
+            // 23 classes & objects
+
+            
 
 
             Console.ReadLine();
