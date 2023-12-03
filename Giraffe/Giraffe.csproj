@@ -44,11 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Book.cs" />
+    <Compile Include="Chef.cs" />
+    <Compile Include="ItalianChef.cs" />
     <Compile Include="Movie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Song.cs" />
     <Compile Include="Student.cs" />
+    <Compile Include="UsefoolTools.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

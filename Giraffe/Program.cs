@@ -349,7 +349,7 @@ namespace Giraffe
             Console.WriteLine(student2.HasHonors());
             */
 
-            //25 Getters & Setters
+            // 25 Getters & Setters
             /*
             Movie avengers = new Movie("The Avengers", "Joss Whendon", "PG-13");
             Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
@@ -357,12 +357,31 @@ namespace Giraffe
             Console.WriteLine(avengers.Rating);
             */
 
-            //26 Static Class Attributes
+            // 26 Static Class Attributes
+            /*
             Song holiday = new Song("Holiday", "Green Day", 200);
             Console.WriteLine(holiday.GetSongCount());
             Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
             Console.WriteLine(kashmir.GetSongCount());
+            */
 
+            // 27 Static Methods and Classes
+            // Console.WriteLine(Math.Sqrt(144));
+            // similirat to Math class and Sqrt
+            // UsefoolTools.SayHi("Giorgi");
+
+            // 28 Inheritance
+            /*
+            Chef chef = new Chef();
+            // chef.MakeChicken();
+
+            ItalianChef italianChef = new ItalianChef();
+            // italianChef.MakePasta();
+            // italianChef.MakeChicken();
+
+            chef.MakeSpecialDish();
+            italianChef.MakeSpecialDish();
+            */
 
             Console.ReadLine();
         }
