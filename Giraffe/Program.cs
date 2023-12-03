@@ -341,6 +341,27 @@ namespace Giraffe
             */
 
             // 24 Object Methods
+            /*
+            Student student1 = new Student("Jim", "Business", 2.8);
+            Student student2 = new Student("Pam", "Art", 3.6);
+
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
+            */
+
+            //25 Getters & Setters
+            /*
+            Movie avengers = new Movie("The Avengers", "Joss Whendon", "PG-13");
+            Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
+
+            Console.WriteLine(avengers.Rating);
+            */
+
+            //26 Static Class Attributes
+            Song holiday = new Song("Holiday", "Green Day", 200);
+            Console.WriteLine(holiday.GetSongCount());
+            Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
+            Console.WriteLine(kashmir.GetSongCount());
 
 
             Console.ReadLine();
